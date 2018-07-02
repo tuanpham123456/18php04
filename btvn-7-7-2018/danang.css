@@ -1,10 +1,17 @@
 * {margin: 0; padding: 0;}
+.big-class{
+  background: black;  
+  
+
+}
 #main{
   width: 1440px;	
   background: white;
-  width: 1440px;
 }
-.logo img{
+.logo {
+  margin-bottom: -45px;  
+  background: black;  
+ 
 }
 .vn{
     margin-top: -197px ;
@@ -39,16 +46,16 @@
 }
  .menu ul{
     list-style-type: none;
-    background: black;  
     height: 50px;
     margin-top: -10px;
     text-align: center;
+    
 } 
 .menu ul li{
     display: inline-table;
     width: 120px;
     height: 40px;
-    line-height: 40px;
+    line-height:40px;
     text-decoration: navajowhite;
     position: relative;
 }
