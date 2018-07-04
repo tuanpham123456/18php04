@@ -1,9 +1,9 @@
 * {margin: 0; padding: 0;}
 .big-class{
   background: black;  
-  
-
+ text-align: center;
 }
+
 #main{
   width: 1440px;	
   background: white;
@@ -22,34 +22,37 @@
 
 }
 
-#container {
-	width: 1000px;
-	overflow: hidden;
-	margin: 50px auto;
-	background: white;
-}
+
 .row{
     margin-top: 10px;
-}
+    border: 1px solid black;
+    background: white; 
+} 
 
-
-
+ 
+#settingimg img{
+  margin-left: 7px;
+  margin-top: 2px;
+ 
+} 
+#settingimg p{
+  margin-top: 10px;
+} 
 
 .photobanner {
-    margin-top: -220px;
+  margin-top: -220px;
 	height: 333px;
 	width: 3550px;
-    margin-bottom: 80px;
-    
-    
+  margin-bottom: 80px;
+    }    
     
 }
- .menu ul{
+.menu ul{
     list-style-type: none;
     height: 50px;
     margin-top: -10px;
     text-align: center;
-    
+    background: black;   
 } 
 .menu ul li{
     display: inline-table;
@@ -58,6 +61,7 @@
     line-height:40px;
     text-decoration: navajowhite;
     position: relative;
+    text-align: center;
 }
 .menu ul li a{
     color: aliceblue;
@@ -66,15 +70,34 @@
     
 }
 .menu ul li a:hover{
-    background: #C0C0C0	;
-    text-decoration: none;
-    display: block;
-} */
+    background: rgb(88, 97, 104)	;
+    /* text-decoration: none; */
+    /* display: block; */
+    color: white;
+  
+} 
 .menu ul li > .sub-menu{
-  display: none;
+  display: none; 
+  background: black;
+  color: white;
+  width: 120px;
+  position: absolute;
+  text-align: center;
 }
 .menu ul li:hover .sub-menu{
   position: absolute;
+  display: block;
+  background:  rgb(88, 97, 104)	;
+  
+}
+.menu ul li ul li a {
+  background:  rgb(88, 97, 104)	;
+}
+#container {
+	width: 1000px;
+	overflow: hidden;
+	margin: 50px auto;
+  background: white;
 }
 
 /*keyframe animations*/
