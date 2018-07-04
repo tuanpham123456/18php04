@@ -23,21 +23,40 @@
 }
 
 
-.row{
-    margin-top: 10px;
-    border: 1px solid black;
-    background: white; 
-} 
+.form{
+  width: 1024px;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 45px;
+}
 
  
-#settingimg img{
-  margin-left: 7px;
-  margin-top: 2px;
+.settingimg {
+
+  border: 1px solid black;
+  width: 160px;
+  text-align: center;
+  height: 150px;
+  float: left;
+  margin-left: 53px;
+  margin-right: 40px;
+ 
  
 } 
+
 #settingimg p{
   margin-top: 10px;
 } 
+.cr img{
+  margin-top: 20px;
+  margin-left: 215px;
+  height: 300px;
+  width: 300px;
+}
+.cr p {
+ 
+
+}
 
 .photobanner {
   margin-top: -220px;
@@ -99,6 +118,19 @@
 	margin: 50px auto;
   background: white;
 }
+#a{
+  background: gray;
+  height: 60px;
+  line-height: 60px;
+  text-indent: 215px;
+}
+#a a{
+  color: white;
+  text-decoration: none;
+}
+#a a:hover{
+  color: red;
+}
 
 /*keyframe animations*/
 .first {
@@ -158,3 +190,5 @@
  }
 
 }
+
+@media screen and width
