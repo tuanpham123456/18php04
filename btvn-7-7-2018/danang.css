@@ -47,6 +47,9 @@
  
  
 } 
+.settingimg img img {
+  margin-top: 10px;
+}
 
 #settingimg p{
   margin-top: 10px;
@@ -138,7 +141,7 @@
 }
 .form1{
   width: 1024px;
-  height: 350px;
+  height: 295px;
   margin-left: 220px;
   margin-bottom: 5px;
   float: left;
@@ -150,11 +153,7 @@
   margin-bottom: 5px;
   float: left;
 }
-
- 
- 
 .settingimg1 {
-
   margin-left: -46px;
   margin-right: 46px; 
   width: 350px;
@@ -162,24 +161,32 @@
   margin-right: 37px;
   height: 200px;
   position: relative;
-
-  
-
- 
- 
 } 
+.settingimg2{
+  position: relative;
+}
+.settingimg2 h3{
+  position: absolute;
+  left:150px;
+  color: #A0522D;
+  left: 265px;
+}
+.settingimg3{
+  position: relative;
+}
+.settingimg3 h3{
+  position: absolute;
+  color: #A0522D;
+  top: -2px;
+  left: 765px;
+}
 .settingimg1 h3{
   position: absolute;
   color: #A0522D  ;
+
   left: 135px;
 }
-.set
-.settingimg1 h5{
-  /* position: absolute;
-  color: red;
-  text-align: justify;
-  bottom: 30px; */
-}
+
 .settingimg1 img{
   
   width: 330px;
@@ -190,10 +197,7 @@
 .settingimg2{
   float: left;
   margin-right: 10px;
-  
-
 }
-
 .settingimg2 img{
   width: 580px;
   float: left;
