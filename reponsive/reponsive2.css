@@ -1,0 +1,182 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+#big-class0{
+	margin: 5px 5px 0 5px;
+	background: url(bg.png) repeat;
+	border: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 3px 4px 3px grey;
+}
+.head p{
+    font-weight: bold;
+    text-indent: 10px;
+}
+.head{
+    background: #B6C5DB;
+    width: 1440px;
+    height: 100px;
+    
+}
+.big-class{
+    margin-top: 20px;
+}
+.Header{
+    background: #D0E1FB;
+    width: 290px;
+    float: left;
+    margin-left: 10px;
+    height: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+.Grobalnow{
+    background: #D0E1FB;
+    width: 800px;
+    float: left;
+    margin-left: 10px;
+    height: 40px;
+    margin-right: 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.Tools{
+    background: #D0E1FB;
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px; 
+
+}
+
+.hero p{
+    font-weight: bold;
+    text-indent: 10px;
+}
+.hero{
+    background: #B6C5DB;
+    height: 100px;
+    margin-top: 10px;
+    width: 1130px;
+    float: left;
+}
+.big-class1{
+    margin-top: 20px;
+    float: left;
+}
+.Feature{
+    background: #D0E1FB;    
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px; 
+    width: 800px;
+}
+.action{
+    background: #D0E1FB;    
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px; 
+    width: 290px;
+}
+.ad{
+    background: #6697C8;    
+    height: 40px;
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    text-align: center;
+    line-height: 100px;
+
+}
+.Body{
+    background: #B6C5DB;
+    height: 100px;
+    margin-top: 10px;
+    width: 1130px;
+    float: left;
+    
+}
+.Body p{
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+.big-class2 {
+    margin-top: 20px;
+    float: left;
+    
+
+}
+.Article{
+    background: #D0E1FB;    
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px; 
+    width: 800px;
+}
+.Listing{
+    background: #D0E1FB;    
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px; 
+    width: 290px;
+}
+.Slide{
+    background: #B6C5DB;
+    height: 100px;
+
+}
+.Slide p{
+    font-weight: bold;
+    float: left;
+    text-indent: 10px;
+}
+.Slide{
+    background: #B6C5DB;    
+    height: 40px;
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    
+}
+.SliderBar{
+    background: #D0E1FB;
+    width: 275px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px; 
+
+
+}
+@media screen and (max-width:768px){
+
+}
