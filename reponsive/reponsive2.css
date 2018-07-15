@@ -13,48 +13,43 @@
 }
 .head p{
     font-weight: bold;
-    text-indent: 10px;
+	padding: 10px 0 10px 5px;
+	font-size: 125%;
 }
 .head{
-    background: #B6C5DB;
-    width: 1440px;
-    height: 100px;
+    padding-top: 10px;
+	background-color: #9fc4f8;
+	padding-bottom: 10px;
     
 }
 .big-class{
-    margin-top: 20px;
+    margin-top: 10px;
+	text-align: center;
+	display: flex;
 }
 .Header{
     background: #D0E1FB;
-    width: 290px;
-    float: left;
-    margin-left: 10px;
-    height: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin-right: 10px;
+	height: 60px;
+	line-height: 60px;
+	width: 15%;
+	float: left;
+	margin-left: 5px;;
 }
 .Grobalnow{
     background: #D0E1FB;
-    width: 800px;
-    float: left;
-    margin-left: 10px;
-    height: 40px;
-    margin-right: 10px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
+    margin: auto;
+    height: 60px;
+	float: left;
+	line-height: 60px;
+	width: 65%;
 }
 .Tools{
     background: #D0E1FB;
-    width: 290px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px; 
+	height: 60px;
+	float: right;
+	line-height: 60px;
+	width: 15%;
+	margin-right: 5px;
 
 }
 
@@ -64,54 +59,52 @@
 }
 .hero{
     background: #B6C5DB;
-    height: 100px;
-    margin-top: 10px;
-    width: 1130px;
-    float: left;
+    padding-top: 10px;
+	margin-top: 20px;
+	width: 65%;
 }
 .big-class1{
-    margin-top: 20px;
-    float: left;
+    margin-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }
 .Feature{
     background: #D0E1FB;    
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px; 
-    width: 800px;
+    height: 60px;
+	line-height: 60px;
+	width: 60%;
+	float: left;
+	margin-left: 5px;
 }
 .action{
     background: #D0E1FB;    
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px; 
-    width: 290px;
+    height: 60px;
+	line-height: 60px;
+	width: 35%;
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px
+}
+.none{
+	clear: both;
 }
 .ad{
     background: #6697C8;    
-    height: 40px;
-    float: left;
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 300px;
-    text-align: center;
-    line-height: 100px;
+    position: absolute;
+	right: 5px;
+	top:150px;
+	width: 33%;
+    height: 110px;
+    line-height: 90px;
+    margin-top: 18px;
 
 }
 .Body{
     background: #B6C5DB;
-    height: 100px;
-    margin-top: 10px;
-    width: 1130px;
-    float: left;
-    
+    padding-top: 10px;
+	margin-top: 20px;
+	width: 65%;
+	float: left;
 }
 .Body p{
     font-weight: bold;
@@ -119,64 +112,102 @@
 }
 
 .big-class2 {
-    margin-top: 20px;
-    float: left;
+    margin-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
     
 
 }
 .Article{
     background: #D0E1FB;    
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px; 
-    width: 800px;
+    height: 160px;
+	line-height: 160px;
+	width: 35%;
+	float: left;
+	margin-left: 5px;
 }
 .Listing{
     background: #D0E1FB;    
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px; 
-    width: 290px;
+    height: 160px;
+	line-height: 160px;
+	width: 60%;
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px; 
 }
 .Slide{
     background: #B6C5DB;
-    height: 100px;
+    padding-top: 10px;
+	margin-top: 20px;
+	background-color: #9fc4f8;
+	width: 33%;
+	float: right;
+	padding-bottom: 10px;
 
 }
 .Slide p{
     font-weight: bold;
-    float: left;
     text-indent: 10px;
 }
 .Slide{
     background: #B6C5DB;    
-    height: 40px;
-    float: left;
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 300px;
-    
+    padding-top: 10px;
+	margin-top: 20px;
+	width: 33%;
+	float: right;
+	padding-bottom: 10px; 
 }
 .SliderBar{
     background: #D0E1FB;
-    width: 275px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    float: left;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-right: 10px; 
+    margin-top: 10px;
+	height: 170px;
+	line-height: 160px;
+	width: 95%;
+	text-align: center;
+	margin: auto 
 
 
 }
+.footer{
+	background-color: #9fc4f8;
+	height: 50px;
+	margin-top: 10px;
+	line-height: 50px;
+}
 @media screen and (max-width:768px){
-
+.hero,.Body, .Slide,.Listing{
+    width: 99%;
+}
+.Listing{
+    margin-top: 10px;
+    margin-right: 2px;
+}
+.Feature{
+    width: 99%;
+}
+.action{
+    width: 99%;
+    margin-top: 5px;
+    margin-right: 2px;
+}
+.Article{
+    width: 70%;
+	height: 90px;
+    line-height: 90px;
+    
+}
+.ad{
+    position: static;
+    width: 25%;
+    height: 90px;
+    margin-top: 0px;
+    float: right;
+}
+#Slide{
+    height:90px;
+}
+.SliderBar{
+    height: 60px;
+    line-height: 60px;
+}
 }
