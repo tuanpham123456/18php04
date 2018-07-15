@@ -203,11 +203,27 @@
     margin-top: 0px;
     float: right;
 }
-#Slide{
+.Slide{
     height:90px;
+    margin-right: 7px;
+    
 }
 .SliderBar{
     height: 60px;
     line-height: 60px;
+}
+}
+@media screen and (max-width:480px){
+.hero,.Body, .Slide,.Listing,.action{
+        width: 99%;
+}
+.Header{
+    width: 99%;
+}
+.Grobalnow,.Tools{
+    height: 30px;
+    line-height: 30px;
+    width: 49%;
+    margin:10px;
 }
 }
