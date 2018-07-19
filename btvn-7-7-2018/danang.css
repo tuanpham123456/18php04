@@ -6,6 +6,7 @@
 .big-class{
   background: black;  
  text-align: center;
+width: auto;
 }
 
 #main{
@@ -141,18 +142,19 @@
 }
 .form1{
   width: 1024px;
-  height: 295px;
-  margin-left: 220px;
-  margin-bottom: 5px;
-  float: left;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 185px;
   
 }
 .form2{
-  width: 1024px;
-  height: 350px;
-  margin-left: 220px;
-  margin-bottom: 5px;
-  float: left;
+ 
+    width: 1024px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 45px;
+
+  
 }
 .settingimg1 {
   margin-left: -46px;
@@ -272,4 +274,3 @@
 
 }
 
-@media screen and width
