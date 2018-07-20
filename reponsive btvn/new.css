@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
 body {
+
     background-color: #ece8e5;
 }
 .register{
@@ -57,6 +60,9 @@ nav li {
 .clearfix {
     *zoom: 1;
 }
+.img{
+
+}
 nav a {
     color: #fff;
     display: inline-block;
@@ -77,6 +83,13 @@ nav li:last-child a {
 }
 nav a#pull {
     display: none;
+}
+
+.font p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 60px;
 }
 
 @media screen and (max-width:1048px){
@@ -101,6 +114,7 @@ nav a#pull {
     }
     .lg{
         margin-left: 2%;
+    }
     
 }
 @media screen and (max-width: 784px) {
@@ -134,7 +148,7 @@ nav a#pull {
     }
     .lg{
         margin-left: 2%;
-    
+    }
    
 
 }
@@ -170,13 +184,35 @@ nav a#pull {
     }
     .lg{
         margin-left: 2%;
-    
-    
+    }
+   
     
     
    
 }
-@media only screen and (max-width : 320px) {
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+    .register a{
+        width: 100%;
+    }
+    .rg{
+        margin-left: 45%;
+    }
+    .lg{
+        margin-left: 2%;
+    }
+    
+
+}
+
+/* @media only screen and (max-width : 320px) {
     nav li {
         display: block;
         float: none;
@@ -194,4 +230,4 @@ nav a#pull {
     .lg{
         margin-left: 2%;
     
-}
+} */
