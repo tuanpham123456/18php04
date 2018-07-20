@@ -84,12 +84,19 @@ nav li:last-child a {
 nav a#pull {
     display: none;
 }
-
+.font{
+    width: 100%;
+}
 .font p{
     font-size: 40px;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 50px;
     margin-left: 60px;
+}
+.font img{
+    width: 100%;
+    margin-top: 5px;
+    height: 500px;
 }
 
 @media screen and (max-width:1048px){
@@ -190,7 +197,7 @@ nav a#pull {
     
    
 }
-@media only screen and (min-width: 320px) and (max-width: 360px) {
+@media only screen and (min-width: 0px) and (max-width: 360px) {
     nav li {
         display: block;
         float: none;
@@ -207,6 +214,9 @@ nav a#pull {
     }
     .lg{
         margin-left: 2%;
+    }
+    .font{
+        display: none;
     }
     
 
