@@ -65,7 +65,7 @@ function validate() {
         // ------------------------------------------------------------
     password = document.getElementById("password").value;
     repassword = document.getElementById("repassword").value;
-    if (password == "" && repassword == "") {
+    if (password == "" && repassword == "" ){
         document.getElementById("erroPass").innerHTML = "Please Enter Pass";
         document.getElementById("erroPass").style.color = "red";
         document.getElementById("password").style.borderColor = "#FA5858";
