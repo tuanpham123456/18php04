@@ -1,0 +1,22 @@
+#calculator{
+	width: 400px;
+	margin: 0 auto;
+	border: 1px solid green;
+	height: 300px;
+}
+.cal{
+	border: 1px solid green;
+	padding: 3px;
+	width: 70px;
+	margin: 10px;
+	float: left;
+	text-align: center;
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+#result{
+	border: 1px solid green;
+	width: 370px;
+	height: 30px;
+	margin: 10px;
+}
