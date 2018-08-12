@@ -91,6 +91,8 @@ function validate() {
     female = document.getElementById("female").checked;
     if(!male && !female){
         document.getElementById('errorGender').innerHTML = '</br>Please choose your gender!';
+        document.getElementById('errorGender').style.color ="red";
+
         checkError = (checkError && false);
 
     }
