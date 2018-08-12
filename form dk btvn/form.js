@@ -87,18 +87,17 @@ function validate() {
         document.getElementById("password").style.borderColor = "#81F7BE";
         document.getElementById("repassword").style.borderColor = "#81F7BE";
     }
-    // var gender = document.forms[0];
-    // var txt = "";
-    // var i;
-    // for (i < 0; gender.length; i++){
-    //     if (gender[i].checked)
-    //     txt += gender[i].value + "";
-    // }
-    // document.getElementById("errorGender").innerHTML="error" + txt;
+    male = document.getElementById("male").checked;
+    female = document.getElementById("female").checked;
+    if(!male && !female){
+        document.getElementById('errorGender').innerHTML = '</br>Please choose your gender!';
+        checkError = (checkError && false);
+
+    }
     if (checkError == true) {
-        document.getElementById("check").style.display="none";
-        document.getElementById("complete").style.display ="block";
-        
+        document.getElementById("check").style.display = "none";
+        document.getElementById("complete").style.display = "block";
+
 
     }
 }   
