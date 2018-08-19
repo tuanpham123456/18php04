@@ -2,14 +2,15 @@
 <html>
 
 <head>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-
+    
+<meta name="viewport" content="width=device-width">
+    
     <style>
-        .slicknav_menu {
+         .slicknav_menu {
             display: none;
         }
 
-        @media screen and (max-width: 40em) {
+        @media screen and (max-width: 480px) {
             /* #menu is the original menu */
             #menu {
                 display: none;
@@ -20,6 +21,9 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="slicknav.css" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    
 </head>
 
 <body>
@@ -37,12 +41,11 @@
     </ul>
 
     <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="slicknav.css" />
+    
+
     <script src="jquery.slicknav.min.js"></script>
     <script>
-        $('#menu').slicknav({
-            prependTo: '#demo1'
-        });
+        $('#menu').slicknav();
     </script>
 </body>
 
