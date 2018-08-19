@@ -1,0 +1,27 @@
+ul li {
+    border: 2px solid blue;
+    width: 200px;
+    list-style-type: none;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    
+    margin-bottom: 15px;
+}
+ul li a {
+    list-style-type: none;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: blue;
+}
+p{
+  font-weight: bold;
+  text-indent: 5px;
+}
+.id{
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+   box-shadow: 3px 3px 4px gray;
+}

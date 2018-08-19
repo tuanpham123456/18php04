@@ -19,7 +19,7 @@ $('#back').click(function () {
     $('#game1').hide();
     $('#game2').hide();
 
-});
+}); 
 $('#home').click(function(){
     
 });
