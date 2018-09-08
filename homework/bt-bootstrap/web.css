@@ -1,0 +1,16 @@
+.font-header{
+    font-size: 10px;
+    color: rgb(243, 226, 226);
+    margin-top: 20px;
+}
+.row-header{
+    background: #F9F9F9;
+}
+.dropdown-list select{
+	margin-top: 55px;
+	margin-left: 170px;
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	border: 0px;
+}

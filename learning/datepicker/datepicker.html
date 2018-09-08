@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Datepicker - Default functionality</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        // $(function () {
+        //     $("#datepicker").datepicker({
+        //         showButtonPanel: true
+        //     });
+        // });
+        // var d =new Date();
+        // var leapyear = function (year) {
+        //     if ((year % 4 == 0 && year % 100 !== 0 && year % 400 !== 0) || (year % 100 === 0 && yea % 400 === 0))
+        //     document.getElementById('date').innerHTML = "năm nhuận";
+        // };
+        // else {
+        //         return year + "là năm k nhuận";
+        // }
+        // var input = prompt("Input Year:");
+        // leapyear(input);
+        $("#datepicker").datepicker();
+        function getDay(){
+            var day= $('#getDay').val();
+            console.log(datepicker);
+            var myDate= new Date(day);
+            var myMonth =myDate.getDate();            
+        }
+        var today = new Date('08/17/2018');
+        var thisMonth = today.getMonth() + 1;
+        console.log(thisMonth);
+
+    </script>
+</head>
+
+<body>
+
+    <p>Date: <input type="text" id="datepicker"></p>
+    <input type="button">
+
+
+</body>
+
+</html>
